@@ -60,6 +60,9 @@ $autoload['packages'] = array();
 */
 $autoload['libraries'] = array('database', 'session');
 
+$autoload['libraries'] = array('session');
+$autoload['helper'] = array('auth_helper', 'url');
+
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
